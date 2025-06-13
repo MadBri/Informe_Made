@@ -1,44 +1,46 @@
-# Informe_Made
-Este proyecto fue desarrollado como parte de la Práctica Laboral de segundo año de la carrera de Ingeniería Informática en la Universidad de Oriente. El sistema está diseñado para asistir al CENAIS en la detección anticipada de sismos y la estimación de su duración, utilizando inteligencia artificial y datos sísmicos en tiempo real.
+# Proyecto de Predicción de Sismos
 
-# Sistema de Predicción del Inicio y Finalización de Eventos Sísmicos
+Este proyecto forma parte de la práctica laboral y desarrollo académico en la carrera de Ingeniería Informática en la Universidad de Oriente. Su objetivo principal es diseñar un sistema informático capaz de predecir el inicio y fin de sismos mediante modelos de aprendizaje automático.
 
-Repositorio correspondiente al proyecto de práctica laboral para la carrera de Ingeniería Informática en la Universidad de Oriente, realizado en el Centro Nacional de Investigaciones Sismológicas (CENAIS).
+---
+
+## Informe de Práctica
+
+En la carpeta `Doc` se encuentra el informe detallado de la práctica laboral, donde se explica la problemática, metodología, análisis y resultados del proyecto.
+
+---
+
+## Sistema de Predicción de Sismos
+
+El sistema desarrollado se encuentra en la carpeta `modelo` y contiene los scripts para el procesamiento de datos, entrenamiento y evaluación de modelos basados en redes neuronales (CNN y LSTM).
+
+---
+
+## Tecnologías Usadas
+
+- Python 3.x  
+- Librerías: NumPy, Pandas, TensorFlow, Keras, Scikit-learn, Matplotlib  
+- Git y GitHub para control de versiones  
+- Jupyter Notebook para desarrollo y pruebas  
+
+*Nota:* No se utilizan frameworks web como Django.
 
 ---
 
 ## Estructura del Repositorio
-
-- `Doc/`  
-  Contiene el informe de práctica laboral con la fundamentación teórica, desarrollo e implementación del sistema.
-
-- `dataset/`  
-  Contiene los datos usados para el entrenamiento del modelo predictivo de eventos sísmicos.  
-  **Importante:** Estos datos fueron recolectados por los sensores IoT del CENAIS y procesados para alimentar el sistema.
-
-- `src/`  
-  Código fuente del sistema, incluyendo scripts para el procesamiento de datos, modelo predictivo, backend y frontend.
-
-- `README.md`  
-  Archivo con la documentación general del proyecto.
+Informe_Made/ ├── Doc/                   # Informe de práctica en PDF y documentos relacionados ├── dataset/               # Datos utilizados para entrenamiento y pruebas ├── modelo/                # Código fuente del sistema de predicción de sismos │   ├── cnn_lstm_model.py │   ├── data_processing.py │   └── ... ├── README.md              # Este archivo
 
 ---
 
-## Descripción del Proyecto
+## Uso
 
-Este sistema tiene como objetivo principal predecir el inicio y la finalización de eventos sísmicos utilizando técnicas de inteligencia artificial y procesamiento de datos en tiempo real. El desarrollo se realizó utilizando la metodología RUP, asegurando una planificación y control adecuados durante todas las fases.
-
----
-
-## Tecnologías Utilizadas
-
-- **Python**: para el procesamiento de datos y el modelo predictivo.  
-- **PostgreSQL**: gestión de la base de datos.  
-- **Django**: desarrollo del backend y API.  
-- **Leaflet.js**: visualización geográfica de eventos sísmicos en el frontend.  
-- **Sensores IoT**: recolección de datos en tiempo real.
+1. Descargar o clonar el repositorio.  
+2. Revisar el informe en la carpeta `Doc` para comprender el contexto y la metodología.  
+3. En la carpeta `modelo` se encuentran los scripts para ejecutar el sistema de predicción.  
+4. Los datos están en la carpeta `dataset`.
 
 ---
+
 
 ## Contacto
 
