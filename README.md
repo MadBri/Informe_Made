@@ -23,8 +23,6 @@ El sistema desarrollado se encuentra en la carpeta `modelo` y contiene los scrip
 - Git y GitHub para control de versiones  
 - Jupyter Notebook para desarrollo y pruebas  
 
-*Nota:* No se utilizan frameworks web como Django.
-
 ---
 Informe_Made/
 ├── Doc/                   # Informe de práctica en PDF y documentos relacionados
