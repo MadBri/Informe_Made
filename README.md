@@ -4,7 +4,7 @@ Este proyecto forma parte de la práctica laboral y desarrollo académico en la 
 
 ---
 
-## Informe de Práctica
+## Informe de Práctica 📜
 
 En la carpeta `Doc` se encuentra el informe detallado de la práctica laboral, donde se explica la problemática, metodología, análisis y resultados del proyecto.
 
@@ -16,7 +16,7 @@ El sistema desarrollado se encuentra en la carpeta `modelo` y contiene los scrip
 
 ---
 
-## Tecnologías Usadas
+## Tecnologías Usadas 👩🏽‍💻⌨️
 
 - Python 3.x  
 - Librerías: NumPy, Pandas, TensorFlow, Keras, Scikit-learn, Matplotlib  
@@ -39,7 +39,7 @@ Informe_Made/
 
 ---
 
-## Uso
+## Uso 
 
 1. Descargar o clonar el repositorio.  
 2. Revisar el informe en la carpeta `Doc` para comprender el contexto y la metodología.  
@@ -48,10 +48,20 @@ Informe_Made/
 
 ---
 
+## Estado del proyecto
 
-## Contacto
+🚧 En fase de desarrollo: se están analizando mejoras y posibles ejemplos de resultados.
+
+---
+
+## Contacto👩🏽‍🏫
 
 Madeley Graham León  
 Correo: madeleygraham9@gmail.com
 Universidad de Oriente – Ingeniería Informática
 
+---
+
+## Agradecimientos 👏🏽
+
+Agradezco al Dr.C Dionis López Ramos por su orientación durante el desarrollo.
