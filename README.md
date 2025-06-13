@@ -26,9 +26,18 @@ El sistema desarrollado se encuentra en la carpeta `modelo` y contiene los scrip
 *Nota:* No se utilizan frameworks web como Django.
 
 ---
-
-## Estructura del Repositorio
-Informe_Made/ ├── Doc/                   # Informe de práctica en PDF y documentos relacionados ├── dataset/               # Datos utilizados para entrenamiento y pruebas ├── modelo/                # Código fuente del sistema de predicción de sismos │   ├── cnn_lstm_model.py │   ├── data_processing.py │   └── ... ├── README.md              # Este archivo
+Informe_Made/
+├── Doc/                   # Informe de práctica en PDF y documentos relacionados
+│   └── informe.pdf
+├── dataset/               # Datos utilizados para entrenamiento y pruebas
+│   └── datos.csv
+├── modelo/                # Código fuente del sistema de predicción de sismos
+│   ├── entrenamiento.py
+│   ├── prediccion.py
+│   ├── modelo_cnn.ipynb
+│   ├── modelo_lstm.ipynb
+│   └── requirements.txt
+├── README.md              # Este archivo
 
 ---
 
