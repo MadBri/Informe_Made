@@ -24,7 +24,9 @@ El sistema desarrollado se encuentra en la carpeta `modelo` y contiene los scrip
 - Jupyter Notebook para desarrollo y pruebas  
 
 ---
-Informe_Made/
+
+## Estructura del proyecto 🗂️
+📦 Informe_Made/
 ├── Doc/                   # Informe de práctica en PDF y documentos relacionados
 │   └── informe.pdf
 ├── dataset/               # Datos utilizados para entrenamiento y pruebas
@@ -36,6 +38,19 @@ Informe_Made/
 │   ├── modelo_lstm.ipynb
 │   └── requirements.txt
 ├── README.md              # Este archivo
+
+---
+
+## 📂 Datos utilizados
+
+Los datos utilizados en este proyecto fueron obtenidos del sistema de monitoreo sísmico del CENAIS, correspondientes a la estación QMBU en Santiago de Cuba.
+
+- 📅 **Fecha del registro**: 2 de mayo de 2025
+- 🛰️ **Estación**: QMBU
+- 📡 **Canal**: HHE
+- 📈 **Formato**: CSV con columnas: timestamp, amplitude, station, channel, etc.
+
+> Estos datos fueron recolectados como parte del monitoreo en tiempo real del sistema sismológico cubano y se encuentran en la carpeta `dataset/sismos.csv`.
 
 ---
 
